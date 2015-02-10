@@ -2,7 +2,7 @@
 *--------------------------*/
 @font-face {
   font-family: 'briskicon';
-  src: url('../../fonts/briskicon.woff?v=4.2.0') format('woff') /*url('../fonts/briskicon.ttf?v=4.2.0')format('truetype'), */ /*url('../fonts/briskicon.svg?v=4.2.0#fontawesomeregular')format('svg')*/;
+  src: url('../fonts/briskicon.woff?v=4.2.0') format('woff') /*url('../fonts/briskicon.ttf?v=4.2.0')format('truetype'), */ /*url('../fonts/briskicon.svg?v=4.2.0#fontawesomeregular')format('svg')*/;
   font-weight: normal;
   font-style: normal;
   
