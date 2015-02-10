@@ -1,0 +1,122 @@
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500,700,400);
+@import "variables";
+
+@import "../briskcss/less/style";
+
+
+/* === === === === Tool Box Theme Css === === === === */
+
+body {
+    background: #282827 url('images/bg.png') repeat top left;
+    margin-top: @y * @b;
+    font-size: @d + @b + @b;
+    font-family: 'Raleway', sans-serif;
+    line-height: @x + @b + @a;
+    color: @text-white;
+}
+
+header {
+    border-bottom: @b dashed @gray-60;
+}
+
+h1 {
+    color: @text-white;
+    font-size: @x * @b + @x;
+    font-weight: normal;
+}
+
+h2 {
+    color: @text-white;
+    border-bottom: @a dashed @gray-60;
+    padding: @b @z @c @b;
+    font-weight: normal;
+}
+
+h3 {
+    color: @text-white;
+    padding: @d @z @z @z;
+    font-weight: normal;
+    font-size: @d + @d + @b;
+    text-transform: capitalize;
+}
+
+section{
+    ul{
+        li{
+            margin:10px 0;
+        }
+    }
+}
+
+.center {
+    float: none !important;
+}
+
+footer {
+    border-top: @b dashed @gray-60;
+    font-size: @d + @b;
+    text-align: center;
+}
+
+#html {
+    border: 1px solid #e1e1e8 !important;
+    clear: both;
+    margin-bottom: 30px;
+    border-radius: 4px 4px;
+    position: relative;
+
+    pre {
+        padding: @d @d @d 16px;
+        font-size: 13px;
+        line-height: 1.42857143;
+        color: #333;
+        word-break: break-all;
+        word-wrap: break-word;
+        background-color: #444;
+        margin: @z;
+        border: @z solid #e1e1e8 !important;
+        border-radius: 4px;
+
+        .tag {
+            color: #89bdff;
+        }
+
+        .atn {
+            color: #bdb76b;
+        }
+
+        .pun {
+            color: #fff;
+        }
+
+        .atv {
+            color: #65B042;
+        }
+    }
+}
+
+.icons-list li{
+	width:200px;
+	display:block;
+	float:left;
+	height:30px;
+	padding-left:10px;
+	line-height:30px;
+	margin:1px;
+	font-size:14px;
+	overflow:hidden;
+	span{margin-right:5px;}
+	&:hover{
+		font-size:20px;
+		background:@bg-cyan;
+		border-radius:6px;
+		}
+}
+
+
+
+
+.briskicon-inverse{color:#666;}
+
+
